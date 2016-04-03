@@ -6,6 +6,10 @@ body {
   height: 100%;
 }
 
+html {
+  min-height: 100%;
+}
+
 #frontpage {
   position: relative;
   background-position: center center;
