@@ -1,0 +1,22 @@
+@media (max-width: 767px) {
+
+  #frontpage {
+    position: relative;
+    background-position: center center;
+  }
+
+  #blackbox {
+    display: none;
+  }
+
+  #croiassant-icon {
+    width: 80%;
+    display: inline-block;
+  }
+
+  h1 {
+    font-weight: 400;
+    letter-spacing: 15px;
+    font-size: 15px;
+  }
+}

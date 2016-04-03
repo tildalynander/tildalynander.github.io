@@ -1,0 +1,148 @@
+@import "icons.css";
+@import "skills-pie-chart.css";
+
+body, html {
+  width:100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+/*Header texts*/
+h1 {
+  font-family: 'Cabin Sketch';
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 50%;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 2px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10%;
+  clear: both;
+  text-transform: uppercase;  
+  margin-bottom: 15%;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  display: inline-block;
+  clear: both;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#header-fika {
+  display: block;
+  padding-top: 2%;
+}
+
+/*Backgrounds*/
+
+body {
+  background-size: cover;
+  background-image: url(tildature-min.jpg);
+  background-color: gray;
+  background-attachment: fixed;
+  transition: background-image 0.5s linear;
+}
+
+/*#background {
+  background-size: cover;
+  background-image: url(tildature.jpg);
+  background-attachment: fixed;
+  float: left;
+  -webkit-animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -ms-animation: fadein 4s; 
+  -o-animation: fadein 4s; 
+  animation: fadein 4s;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}*/
+
+#frontpage {
+  text-align: center;
+  height:100%;
+  z-index:10;
+}
+
+#container {
+  background: white;
+}
+
+#content {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.single-work-container {
+  text-align: left;
+  margin-bottom: 10%
+}
+
+.selected-work-img {
+  margin-top: 2%;
+  width: 100% ;
+  margin: 0 auto;
+  display: block;
+  transition: all .2s ease-in-out;
+}
+
+.selected-work-img:hover {
+  width: 99%;
+}
+
+.social-media {
+  margin-top: 3%;
+}
+
+#croiassant-icon {
+  width: 30%;
+  margin-top: 100px;
+}
+
+#fika-content {
+  padding-top: 15%;
+}
+
+#header {
+  animation: fadein 4s;
+  -webkit-animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

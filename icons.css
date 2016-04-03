@@ -1,0 +1,65 @@
+.social-media {
+    text-align: center;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: cover;
+    margin: 10px;
+    transition: all 0.2s ease-out;  
+
+
+}
+
+.facebook {
+    background-image: url("facebook-icon.svg"); 
+}
+
+.mail {
+    background-image: url("mail-icon.svg"); 
+}
+
+.instagram {
+    background-image: url("instagram-icon.svg");
+}
+
+.twitter {
+    background-image: url("twitter-icon.svg");
+}
+
+.pinterest {
+    background-image: url("pinterest-icon.svg");
+}
+
+.linkedin {
+    background-image: url("linked-in-icon.svg");
+}
+
+.icon {
+    opacity: 0;
+    animation: fadeinicon 4s forwards;
+    animation-delay: 1s;
+    -webkit-animation: fadeinicon 4s forwards;
+    -webket-animation-delay: 1s;
+
+}
+
+@keyframes fadeinicon {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadeinicon {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.icon:hover {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-size: cover;
+    margin: 6px;
+}
