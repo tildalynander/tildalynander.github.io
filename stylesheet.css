@@ -10,11 +10,10 @@ body, html {
 
 /*Header texts*/
 h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 45px;
-  font-weight: 600;
+  font-family: times;
+  font-size: 25px;
   color: black;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   position: absolute;
   bottom: 100px;
   display: block;
@@ -127,7 +126,6 @@ body {
 }
 
 .selected-work-img:hover {
-  width: 99%;
   opacity: 0.8;
 }
 
