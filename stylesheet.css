@@ -78,9 +78,9 @@ body {
   transition: background-image 0.5s linear;
 }
 
-/*#background {
+#background {
   background-size: cover;
-  background-image: url(tildature.jpg);
+  background-image: url(tildature-min.jpg);
   background-attachment: fixed;
   float: left;
   -webkit-animation: fadein 4s;
@@ -93,7 +93,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-}*/
+}
 
 #frontpage {
   text-align: center;
